@@ -7,7 +7,7 @@ class ExtedsThred extends  Thread{
             System.out.println("Hello");
             try
             {
-                Thread.sleep(1);
+                Thread.sleep(1);// Intorupt method
             }
             catch(Exception e){
                 e.printStackTrace();
